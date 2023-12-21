@@ -6,7 +6,7 @@ function logError(theException) {
     console.log(theException);
 }
 
-// Try..Catch
+//Try..Catch
 console.log("\n********Try..Catch********\n");
 
 try {
@@ -16,7 +16,7 @@ try {
     logError(ex);
 }
 
-// Throwing in Try..Catch
+//Throwing in Try..Catch
 console.log("\n********Throwing in Try..Catch********\n");
 
 try {
@@ -35,7 +35,7 @@ try {
     console.log("Got an error");
     logError(ex);
 } finally {
-    console.log("Cde that always will run");
+    console.log("Code that always will run");
 }
 function hello() {
     console.log("\n********Throwing Exceptions\n");
